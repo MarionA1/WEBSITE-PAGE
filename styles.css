@@ -303,12 +303,131 @@ body {
     font-weight: bold;
   }
   
-  footer {
+ /* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+/* Contact Form Section */
+.contact-form {
+  background-color: #fff;
+  padding: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-form h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #555;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ff9900;
+  outline: none;
+}
+
+.contact-form button {
+  background-color: #ff9900;
+  color: white;
+  font-size: 18px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #e68900;
+}
+.newsletter {
+  background-color: #ff9900;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 20px;
+}
+
+.newsletter h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.newsletter input {
+  padding: 15px;
+  width: 50%;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.newsletter button {
+  background-color: #fff;
+  color: #ff9900;
+  font-size: 18px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+  background-color: #f0e5b6;
+}
+.contact-details .contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-details .contact-item i {
+  font-size: 20px;
+  color: #ff9900;
+  margin-right: 15px;
+}
+
+.contact-details .contact-item p {
+  font-size: 16px;
+  color: #333;
+}
+
+.contact-details .contact-item a {
+  color: #ff9900;
+  text-decoration: none;
+}
+
+.contact-details .contact-item a:hover {
+  text-decoration: underline;
+}
+ footer {
     background-color: #3E2723;
     color: #F4E1D2;
     text-align: center;
     padding: 20px 0;
   }
+  
   
   footer p {
     font-size: 1rem;
