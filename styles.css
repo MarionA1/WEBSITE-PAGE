@@ -64,12 +64,6 @@ body {
     color: #333;
     margin-bottom: 20px;
   }
-  .home img {
-    width: 100%;
-    height: auto;
-    max-width: 100px;
-  }
-  
   button {
     padding: 10px 20px;
     background-color: #5e35b1;
